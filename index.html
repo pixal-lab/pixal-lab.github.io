@@ -8,11 +8,18 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <meta name="description" content="Pablo Ahumada Villegas — Ingeniero Civil en Informática y Telecomunicaciones. Desarrollador Full Stack con experiencia en PHP, .NET, React y bases de datos SQL." />
     <title>Pablo Ahumada — CV &amp; Portafolio</title>
-    <link rel="icon" type="image/png" href="/images/profile.png" />
+    <script>
+      const baseUrl = import.meta.env.BASE_URL || '/';
+      const favicon = document.createElement('link');
+      favicon.rel = 'icon';
+      favicon.type = 'image/png';
+      favicon.href = baseUrl + 'images/perfil.png';
+      document.head.appendChild(favicon);
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/CV/assets/index-6sczrTUr.js"></script>
+    <script type="module" crossorigin src="/CV/assets/index-CVUBOqzL.js"></script>
     <link rel="stylesheet" crossorigin href="/CV/assets/index-CREuYxDV.css">
   </head>
 
